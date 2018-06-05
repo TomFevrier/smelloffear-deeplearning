@@ -8,13 +8,10 @@
 
 - ### models
   - **``labels_audio``**: classification network on audio data, trained over 1000 epochs
-  - **``labels_video``**: classification network on video data, trained over 100 epochs, with batch normalization
   - **``video_autoencoder``**: trained over 50 epochs
   - **``video_autoencoder_with_bn``**: trained over 50 epochs with batch normalization
   - **``vocs_audio_oso``**: prediction network on audio data, leaving one screening out for validation, trained over 1000 epochs
   - **``vocs_audio_l20``**: prediction network on audio data, using the last 20% of each movie for validation, trained over 1000 epochs
-  - **``vocs_video_oso``**: prediction network on video data, leaving one screening out for validation, trained over 50 epochs
-  - **``vocs_video_l20``**: prediction network on video data, using the last 20% of each movie for validation, trained over 50 epochs
 
 - ### ``convert_vae_to_nn.py``
 
