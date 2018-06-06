@@ -1,5 +1,7 @@
 # *Identifying Markers for Human Emotion in Breath Using Convolutional Autoencoders on Movie Data*
 
+### [Download the original paper](https://github.com/TomFevrier/smelloffear-deeplearning/raw/master/Identifying%20Markers%20for%20Human%20Emotion%20in%20Breath%20Using%20Convolutional%20Autoencoders%20on%20Movie%20Data.pdf)
+
 - ### data
   - **audio**: contains all the audio data for the 6 movies, as numpy matrices
   - **labels**: contains all the labels for the 6 movies, in the original CSV format and transposed
@@ -12,8 +14,6 @@
   - **``video_autoencoder_with_bn``**: trained over 50 epochs with batch normalization
   - **``vocs_audio_oso``**: prediction network on audio data, leaving one screening out for validation, trained over 1000 epochs
   - **``vocs_audio_l20``**: prediction network on audio data, using the last 20% of each movie for validation, trained over 1000 epochs
-  
-### [Download the original paper](https://github.com/TomFevrier/smelloffear-deeplearning/raw/master/Identifying%20Markers%20for%20Human%20Emotion%20in%20Breath%20Using%20Convolutional%20Autoencoders%20on%20Movie%20Data.pdf)
 
 - ### ``convert_vae_to_nn.py``
 
